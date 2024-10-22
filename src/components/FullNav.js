@@ -8,22 +8,22 @@ const FullNav = () => {
                 <nav>
                     <ul>
                         <li>
-                            <Link to ={"#about"}>
+                            <a href ="#about">
                                 <span className="txt">About</span>
                                 <span className="round">01</span>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to ={"#projects"}>
+                            <a href ="#projects">
                                 <span className="txt">Projects</span>
                                 <span className="round">02</span>
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link to ={"#contact"}>
+                            <a href ="#contact">
                                 <span className="txt">Contact</span>
                                 <span className="round">03</span>
-                            </Link>
+                            </a>
                         </li>
                     </ul>
                 </nav>
@@ -49,7 +49,7 @@ const FullNav = () => {
                         </Link>
                     </dd>
                 </dl>
-                <a href="" className="btn btn-resume"><span>DOWNLOAD RESUME</span> <i className="icon icon-down">↘</i></a>
+                <a href="" className="btn btn-resume" download><span>DOWNLOAD RESUME</span> <i className="icon icon-down">↘</i></a>
             </div>
         </>
     )

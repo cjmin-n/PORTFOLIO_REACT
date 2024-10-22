@@ -1,0 +1,18 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #222;
+}
+
+a {
+  text-decoration: none;
+}
+
+.serif {
+  font-family: "Fraunces", serif;
+}

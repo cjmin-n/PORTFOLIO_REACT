@@ -1,0 +1,34 @@
+@import '../Common';
+header {
+    .top-header {
+        width: 100%;
+        height: 108px;
+        padding: 0 $padding;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .logo {
+            font-size: 36px;
+        }
+        .btn-menuOpen {
+            &::before {
+                content: 'Menu';
+            }
+            .bar-wrap {
+                width: 60px;
+                height: 17px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                .bar {
+                    display: block;
+                    width: 60px;
+                    height: 2px;
+                    background: $black;
+                    transition: 0.3s;
+                }
+            }
+        }
+    }
+    
+}

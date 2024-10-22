@@ -1,0 +1,20 @@
+@import './Common';
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: $black;
+}
+
+a {
+    text-decoration: none;
+}
+
+// fonts
+.serif {
+    font-family: "Fraunces", serif;
+}
