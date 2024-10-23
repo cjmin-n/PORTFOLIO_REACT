@@ -5,16 +5,17 @@ const Header = () => {
 
     return (
         <header>
-            <div className="top-header">
+            <div className="top-header flex items-center">
                 <h1 className="logo"><Link to={"/"}><span className="serif">C</span><span>*</span> </Link></h1>
-                <button className="btn btn-menuOpen">
+                {/* <button className="btn btn-menuOpen">
                     <div className="bar-wrap">
                         <span className="bar"></span>
                         <span className="bar"></span>
                     </div>
-                </button>
+                </button> */}
+                <input type="checkbox" value="synthwave" className="toggle theme-controller" />
             </div>
-            <FullNav/>
+            {/* <FullNav/> */}
         </header>
     )
 
