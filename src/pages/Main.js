@@ -1,7 +1,7 @@
 import About from "../components/main/About";
 import Contact from "../components/main/Contact";
 import Projects from "../components/main/Projects";
-import Skill from "../components/main/Skill";
+import Skills from "../components/main/Skills";
 import Visual from "../components/main/Visual";
 
 const Main = () => {
@@ -10,7 +10,7 @@ const Main = () => {
         <main>
             <Visual />
             <About />
-            <Skill />
+            <Skills />
             <Projects />
             <Contact />
         </main>

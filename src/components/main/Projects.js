@@ -1,55 +1,24 @@
-import ScrollDown from "../ScrollDown";
-import FrontProjects from "../projects/FrontProjects";
-import BackProjects from "../projects/BackProjects";
-import { useState } from "react";
+
+import projects from '../../data/projects.json';
 
 const Projects = () => {
-    const [show, setShow] = useState(true);
-
-    const onClickHandler = e => {
-
-        setShow(!show);
-
-        let $btnProjects = document.querySelectorAll('#projects .title-wrap .btn-wrap button');
-
-        if(show===true){
-            // back
-            $btnProjects.forEach(el=>{el.classList.remove("active")});
-            e.target.classList.add("active");
-            
-        }else {
-            // front
-            $btnProjects.forEach(el=>{el.classList.remove("active")});
-            e.target.classList.add("active");
-            
-        }
-    }
-
     return (
-        <section id="projects">
-            <div className="title-wrap">
-                <h2 className="title">Projects</h2>
-                <div className="btn-wrap">
-                    <button className="active" onClick={onClickHandler}>Front Projects</button>
-                    <button onClick={onClickHandler}>Back Projects</button>
-                </div>
-                <ScrollDown/>
+      <section id="projects" className="bg-gray-100 py-16">
+        <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">Projects</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4">
+          {projects.map((project, index) => (
+            <div key={index} className="bg-white p-6 rounded-lg shadow-md transform hover:scale-105 hover:shadow-lg transition-all duration-300">
+              <h3 className="text-2xl font-semibold mb-2">{project.title}</h3>
+              <p className="text-gray-600 mb-4">{project.description}</p>
+              <p className="text-sm text-gray-500 mb-4">Tech Stack: {project.techStack}</p>
+              <a href={project.link} className="text-indigo-600 hover:text-indigo-800 transition-colors">
+                View Project
+              </a>
             </div>
-            {
-                show ? <FrontProjects /> : <BackProjects />
-            }
-            
-            
-            {/* <div className="project-list">
-                <ul>
-                    <li>
-
-                    </li>
-                </ul>
-            </div> */}
-        </section>
+          ))}
+        </div>
+      </section>
     );
-    
-}
+  };
 
 export default Projects;

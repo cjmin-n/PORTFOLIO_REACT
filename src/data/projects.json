@@ -1,0 +1,15 @@
+[
+    {
+      "title": "Project 1",
+      "description": "An innovative project that simplifies complex tasks.",
+      "techStack": "React, Node.js, MongoDB",
+      "link": "#"
+    },
+    {
+      "title": "Project 2",
+      "description": "An innovative project that simplifies complex tasks.",
+      "techStack": "React, Node.js, MongoDB",
+      "link": "#"
+    }
+    
+]
