@@ -1,22 +1,118 @@
 @import './Common';
 
-
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: "Pretendard", sans-serif;
     font-style: normal;
     font-weight: 400;
-    color: $black;
+    // color: $black;
+    // background: $bgColor;
 }
 
 a {
     text-decoration: none;
 }
 
-// fonts
-.serif {
-    font-family: "Fraunces", serif;
+.en {
+    font-family: "SF Mono", sans-serif;
+}
+
+.inner {
+    width: 1400px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.loading-container {
+    width: 100vw;
+    height: 100vh;
+    background: $point;
+    .loading-motion {
+        .fill-path {
+            fill: #fff; /* 채워질 색상 */
+            clip-path: inset(0 100% 0 0); /* 처음에는 전부 가려진 상태 */
+            animation: fillAnimation 2s ease-out forwards;
+          }
+          
+          @keyframes fillAnimation {
+            to {
+              clip-path: inset(0 0 0 0); /* 전체가 점점 나타남 */
+            }
+          }
+        // .draw-path {
+        //     stroke: #fff; /* 원하는 색상 */
+        //     stroke-width: 2; /* 선 굵기 */
+        //     fill: transparent;
+        //     stroke-linecap: round;
+        //     stroke-linejoin: round;
+          
+        //     /* 애니메이션 적용 */
+        //     stroke-dasharray: 700; /* 전체 길이보다 살짝 크게 */
+        //     stroke-dashoffset: 700; /* 처음에는 선을 숨김 */
+        //     animation: draw 2s ease-in-out forwards;
+        //   }
+          
+        //   @keyframes draw {
+        //     to {
+        //       stroke-dashoffset: 0;
+        //     }
+        //   }
+    }
+}
+
+.btn {
+    padding: 0;
+    height: auto;
+    position: relative;
+    border: none;
+
+    span {
+        padding: 20px 30px;
+        border: 1px solid $black;
+        border-radius: $borderRadius;
+        font-family: "SF Mono", sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        background: $bgColor;
+        white-space: nowrap;
+        z-index: 1;
+        transition: 0.3s;
+    }
+    
+
+    &::after {
+        position: absolute;
+        content: '';
+        opacity: 0;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        background: $point;
+        transition: 0.3s;
+    }
+
+    &:hover {
+        span {
+            border-color: $point;
+            font-weight: 500;
+            color: $point;
+        }
+        &::after {
+            opacity: 1;
+            top: 5px;
+            left: 5px;
+            
+        }
+    }
+}
+
+.sub-tit {
+    color: $point;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
 }

@@ -1,0 +1,354 @@
+[
+    {
+      "title": "건강백년",
+      "contents": "반응형 · 재단법인 건강백년 사이트 구축 퍼블리싱",
+      "date": "Apr 2024 - May 2024",
+      "link": "https://healthy100foundation.org/",
+      "detail": "https://choijeongminweb.notion.site/625177fb91f24e7692ed3b54e7139f68?pvs=4",
+      "skill": "SCSS · Vanilla JS · Swiper · TweenMax · ScrollMagic · BootStrap",
+      "thumb": "/images/work/work38.jpg"
+    },
+    {
+      "title": "LS엠트론 특수 사업부",
+      "contents": "반응형 · 사용자편의성 증진, 웹접근성, 디자인가이드에 준수를 목적으로 한 퍼블리싱",
+      "date": "Jan 2024 - May 2024",
+      "link": "https://lstrackshoe.com/en",
+      "detail": "https://choijeongminweb.notion.site/LS-96ab1c727dd648c4b256008497720ccd?pvs=4",
+      "skill": "SCSS · Vanilla JS · Swiper · Tailwind · Daisy UI",
+      "thumb": "/images/work/work37.jpg"
+    },
+    {
+      "title": "학산문화사 디지털카탈로그",
+      "contents": "반응형 · 영업용 디지털카탈로그로 모든 사이즈 최적화 사이트로 제작",
+      "date": "Dec 2022 - Mar 2024",
+      "link": "https://www.haksan-catalog.com/",
+      "detail": "https://choijeongminweb.notion.site/30a2ac349c0a4184a741ced86ff356ce?pvs=4",
+      "skill": "SCSS · Jquery · Swiper · ScrollMagic · gsap · counterup · mCustomScrollbar · modal",
+      "thumb": "/images/work/work36.jpg"
+    },
+    {
+      "title": "LS엠트론 트랙터 사업부",
+      "contents": "반응형 · 사용자편의성 증진, 웹접근성, 디자인가이드에 준수를 목적으로 한 퍼블리싱",
+      "date": "Oct 2023 - Mar 2024",
+      "link": "https://www.lstractor.com/ko",
+      "detail": "https://choijeongminweb.notion.site/LS-a32cd49c57de460582366ffc19e1f99a?pvs=4",
+      "skill": "SCSS · Vanilla JS · Swiper · Tailwind · Daisy UI",
+      "thumb": "/images/work/work35.jpg"
+    },
+    {
+      "title": "푸르지오 분양사이트 : 관저",
+      "contents": "템플릿화 · 지역에 따라 내용이 변경되는 사이트",
+      "date": "Aug 2023 - Oct 2023",
+      "link": "https://www.prugio.com/hc/2023/gwanjeo",
+      "detail": "https://choijeongminweb.notion.site/ea7b9ff0db28424499eae1a5b5d088ad?pvs=4",
+      "skill": "SCSS · Jquery · json · Swiper · Fullpage",
+      "thumb": "/images/work/work34.jpg"
+    },
+    {
+      "title": "푸르지오 분양사이트 : 문현",
+      "contents": "템플릿화 · 지역에 따라 내용이 변경되는 사이트",
+      "date": "Sep 2023 - Nov 2023",
+      "link": "https://www.prugio.com/hc/2023/munhyeon",
+      "detail": "https://choijeongminweb.notion.site/ee0650979454454cbd76b485fb646966?pvs=4",
+      "skill": "SCSS · Jquery · json · Swiper · Fullpage",
+      "thumb": "/images/work/work33.jpg"
+    },
+    {
+      "title": "LS엠트론 사출 사업부",
+      "contents": "반응형 · 사용자편의성 증진, 웹접근성, 디자인가이드에 준수를 목적으로 한 퍼블리싱",
+      "date": "Oct 2023 - Dec 2023",
+      "link": "https://lsinjection.com/ko",
+      "detail": "https://choijeongminweb.notion.site/LS-7ecef244410d4810aee351fe4325f20f?pvs=4",
+      "skill": "SCSS · Vanilla JS · Swiper · Tailwind · Daisy UI",
+      "thumb": "/images/work/work32.jpg"
+    },
+    {
+      "title": "더비치푸르지오써밋 분양사이트",
+      "contents": "템플릿화 · 지역에 따라 내용이 변경되는 사이트",
+      "date": "Aug 2023 - Oct 2023",
+      "link": "https://www.prugio.com/hc/2023/thebeach_summit",
+      "detail": "https://choijeongminweb.notion.site/ba047523f59545f58d02c04c9e64564c?pvs=4",
+      "skill": "SCSS · Jquery · json · Swiper · Fullpage",
+      "thumb": "/images/work/work31.jpg"
+    },
+    {
+      "title": "혜윤산부인과",
+      "contents": "혜윤산부인과 홈페이지 퍼블리싱",
+      "date": "Aug 2023 - Oct 2023",
+      "link": "https://www.hyeyoon.com/",
+      "detail": "https://choijeongminweb.notion.site/09f34ae761634601a313f2711abc723f?pvs=4",
+      "skill": "SCSS · Jquery · ScrollMagic · Swiper · TweenMax",
+      "thumb": "/images/work/work30.jpg"
+    },
+    {
+      "title": "푸르지오 분양사이트 : 서울대벤처타운역",
+      "contents": "템플릿화 · 지역에 따라 내용이 변경되는 사이트",
+      "date": "May 2023 - Aug 2023",
+      "link": "https://www.prugio.com/hc/2023/venturetown",
+      "detail": "https://choijeongminweb.notion.site/ee7a5a901c0144c897970bdc0ea958bd?pvs=4",
+      "skill": "SCSS · Jquery · json · Swiper · Fullpage",
+      "thumb": "/images/work/work29.jpg"
+    },
+    {
+      "title": "자이 리뉴얼",
+      "contents": "건설사 자이 홈페이지 리뉴얼",
+      "date": "May 2023 - Sep 2023",
+      "link": "https://www.xi.co.kr/",
+      "detail": "https://choijeongminweb.notion.site/64caa6172085436cbfc6842395eba170?pvs=4",
+      "skill": "SCSS · Jquery · gsap · Swiper · YTPlayer · mCustomScrollbar · modal · ScrollMagic",
+      "thumb": "/images/work/work28.jpg"
+    },
+    {
+      "title": "샘표윤리경영",
+      "contents": "반응형 · 샘표윤리경영 사이트 퍼블리싱",
+      "date": "Apr 2023 - May 2023",
+      "link": "https://ethics.sempio.com/",
+      "detail": "https://choijeongminweb.notion.site/1e221df4044940da851f546507412993?pvs=4",
+      "skill": "SCSS · Jquery · gsap · Swiper · mCustomScrollbar · modal · ScrollMagic",
+      "thumb": "/images/work/work27.jpg"
+    },
+    {
+      "title": "AG광학",
+      "contents": "AG광학 회사 홈페이지 퍼블리싱",
+      "date": "Feb 2023 - Apr 2023",
+      "link": "http://www.agoptics.co.kr/",
+      "detail": "https://choijeongminweb.notion.site/AG-e67151d69bf446eaa4dc9b4993d9d395?pvs=4",
+      "skill": "SCSS · Jquery · Swiper · Fullpage",
+      "thumb": "/images/work/work26.jpg"
+    },
+    {
+      "title": "타이타늄22 리뉴얼",
+      "contents": "광고회사 타이타늄22 홈페이지 리뉴얼 퍼블리싱",
+      "date": "Feb 2023 - Apr 2023",
+      "link": "http://www.titanium22.co.kr/",
+      "detail": "https://choijeongminweb.notion.site/22-1304b4542e654911b7e3694b98c8913d?pvs=4",
+      "skill": "SCSS · Jquery · Swiper · gsap · counterup · Fullpage · YTPlayer · mCustomscrollbar · modal · scrollTrigger",
+      "thumb": "/images/work/work25.jpg"
+    },
+    {
+      "title": "마이폴학교 랜딩페이지 리뉴얼",
+      "contents": "마이폴학교 입학설명회 접수 랜딩페이지 퍼블리싱",
+      "date": "Sep 2022 / Apr 2023 / Oct 2023",
+      "link": "https://www.pmath.co.kr/",
+      "detail": "https://choijeongminweb.notion.site/696ba3f59e1049a8afa49403ad068ac2?pvs=4",
+      "skill": "SCSS · Jquery · Swiper · gsap · modal",
+      "thumb": "/images/work/work24.jpg"
+    },
+    {
+      "title": "샘표 새미네부엌",
+      "contents": "샘표 새미네부엌 소개 사이트 리뉴얼",
+      "date": "Jun 2022",
+      "link": "http://www.semie-kitchen.com/",
+      "detail": "https://choijeongminweb.notion.site/9833458353ae411690f57f163c94ab1b?pvs=4",
+      "skill": "Jquery · owl.carousel · bootstrap · aos · istope.pkgd · imagesloaded.pkgd · packery-mode.pkgd · magnific-popup",
+      "thumb": "/images/work/work23.jpg"
+    },
+    {
+      "title": "샘표 티아시아",
+      "contents": "샘표 티아시아 소개 사이트 리뉴얼",
+      "date": "May 2022",
+      "link": "http://www.tasiakitchen.co.kr/",
+      "detail": "https://choijeongminweb.notion.site/148af665698a4409b90dcc0b2dcea9a6?pvs=4",
+      "skill": "Jquery · owl.carousel · owl.carousel2-thumbs · bootstrap · aos · couterup · waypoints",
+      "thumb": "/images/work/work22.jpg"
+    },
+    {
+      "title": "폰네크리스 쇼핑몰",
+      "contents": "폰네크리스 쇼핑몰 퍼블리싱",
+      "date": "Oct 2022",
+      "link": "https://jp.phonecklace.com/",
+      "detail": "https://choijeongminweb.notion.site/63a224c496c94bb9adc43ce4b240ebd3?pvs=4",
+      "skill": "Jquery · Swiper",
+      "thumb": "/images/work/work21.jpg"
+    },
+    {
+      "title": "이프원스 쇼핑몰",
+      "contents": "원스인터랙티브 자사 쇼핑몰 이프원스 퍼블리싱",
+      "date": "Oct 2022",
+      "link": "https://www.ifonce.co.kr/",
+      "detail": "https://choijeongminweb.notion.site/bcd5518a128a4d95868b09526a288770?pvs=4",
+      "skill": "Jquery · Swiper · wow · counterup · waypoints",
+      "thumb": "/images/work/work20.jpg"
+    },
+    {
+      "title": "기트 쇼핑몰",
+      "contents": "전자담배 회사 기트 쇼핑몰",
+      "date": "Sep 2022",
+      "link": "https://geet.co.kr/",
+      "detail": "https://choijeongminweb.notion.site/89a3319534e14fb6a5c2b9b95a38a366?pvs=4",
+      "skill": "Jquery · Swiper · Fullpage",
+      "thumb": "/images/work/work19.jpg"
+    },
+    {
+      "title": "앤큐어(뷰티레블) 쇼핑몰",
+      "contents": "화장품 브랜드 앤큐어 쇼핑몰",
+      "date": "Jul 2022",
+      "link": "https://ncure.co.kr/",
+      "detail": "https://choijeongminweb.notion.site/4128eb5df5664d43a3297c68bbd392cb?pvs=4",
+      "skill": "Jquery · Swiper · Fullpage",
+      "thumb": "/images/work/work18.jpg"
+    },
+    {
+      "title": "블록챗",
+      "contents": "반응형 · 블록체인랩스 메신저 블록챗 소개 페이지 퍼블리싱",
+      "date": "Jul 2022 - Sep 2022",
+      "link": "https://block-chat.net/",
+      "detail": "https://choijeongminweb.notion.site/29340318257e4a7b8804c6d869c63fa9?pvs=4",
+      "skill": "Jquery · Swiper · ScrollMagic · gsap · scrollTrigger",
+      "thumb": "/images/work/work17.jpg"
+    },
+    {
+      "title": "원스인터랙티브 바우처",
+      "contents": "반응형 · 원스인터랙티브 바우처 페이지 퍼블리싱",
+      "date": "Sep 2022",
+      "link": "https://www.oncecf.com/voucher",
+      "detail": "https://choijeongminweb.notion.site/b413ff16d248475889000a324d828c9c?pvs=4",
+      "skill": "Jquery · modal",
+      "thumb": "/images/work/work16.jpg"
+    },
+    {
+      "title": "한솔 프로모션 - 하반기",
+      "contents": "한솔그룹 프로모션 페이지 퍼블리싱",
+      "date": "Sep 2022",
+      "link": "https://www.hansolforyou.com/",
+      "detail": "https://choijeongminweb.notion.site/7aeae4b0508d491eb8b24ffdb4ce7793?pvs=4",
+      "skill": "Jquery · Swiper",
+      "thumb": "/images/work/work15.jpg"
+    },
+    {
+      "title": "푸르지오 분양사이트 : 음성 마크베르",
+      "contents": "템플릿화 · 지역에 따라 내용이 변경되는 사이트",
+      "date": "Jun 2022 - Aug 2022",
+      "link": "https://www.prugio.com/hc/2022/eumseong3",
+      "detail": "https://choijeongminweb.notion.site/ec8c2381338a4e78a7ea27a703d12990?pvs=4",
+      "skill": "SCSS · Jquery · json · Swiper · Fullpage",
+      "thumb": "/images/work/work14.jpg"
+    },
+    {
+      "title": "도루코 이벤트",
+      "contents": "도루코 이벤트 페이지 퍼블리싱",
+      "date": "Jun 2022",
+      "link": "http://www.dorcopace.com/event/event_view.asp?evt_idx=40",
+      "detail": "https://choijeongminweb.notion.site/e3b25622650847129b21a227d0e0b342?pvs=4",
+      "skill": "SCSS · Jquery · scrollMagic · TweenMax",
+      "thumb": "/images/work/work13.jpg"
+    },
+    {
+      "title": "푸르지오 분양사이트 : 음성 센터피크",
+      "contents": "템플릿화 · 지역에 따라 내용이 변경되는 사이트",
+      "date": "May 2022 - Jun 2022",
+      "link": "https://www.prugio.com/hc/2022/eumseong2",
+      "detail": "https://choijeongminweb.notion.site/a6a37bdd451f4beeb09f4bdc835b9d1f?pvs=4",
+      "skill": "SCSS · Jquery · json · Swiper · Fullpage",
+      "thumb": "/images/work/work12.jpg"
+    },
+    {
+      "title": "한솔 프로모션 - 상반기",
+      "contents": "한솔그룹 프로모션 페이지 퍼블리싱",
+      "date": "Apr 2022",
+      "link": "https://www.hansolforyou.com",
+      "detail": "https://choijeongminweb.notion.site/c703938b340d4528b0585dd5757fd3c2?pvs=4",
+      "skill": "SCSS · Jquery · Swiper",
+      "thumb": "/images/work/work11.jpg"
+    },
+    {
+      "title": "푸르지오 분양사이트 : 김해 구산",
+      "contents": "템플릿화 · 지역에 따라 내용이 변경되는 사이트",
+      "date": "Mar 2022 - Apr 2022",
+      "link": "https://www.prugio.com/hc/2022/gimhae",
+      "detail": "https://choijeongminweb.notion.site/70cb9442c49b4580863507654c9cf765?pvs=4",
+      "skill": "SCSS · Jquery · json · Swiper · Fullpage",
+      "thumb": "/images/work/work10.jpg"
+    },
+    {
+      "title": "원스인터랙티브 리뉴얼",
+      "contents": "반응형 · 원스인터랙티브 자사 사이트 리뉴얼 프로젝트",
+      "date": "Mar 2022",
+      "link": "https://www.oncecf.com/",
+      "detail": "https://choijeongminweb.notion.site/7dc512d413914f718157cd6a95d52d58?pvs=4",
+      "skill": "SCSS · Jquery · aos · Swiper · imagesloaded.pkgd · isotope.pkgd",
+      "thumb": "/images/work/work09.jpg"
+    },
+    {
+      "title": "달라진",
+      "contents": "반응형 · 다이어트 컨설팅 업체 달라진 사이트 구축",
+      "date": "Feb 2022 - Mar 2022",
+      "link": "https://dallajin.com/",
+      "detail": "https://choijeongminweb.notion.site/dba6fdbb715947c8a1c8bd96f3cad752?pvs=4",
+      "skill": "SCSS · Jquery · Swiper",
+      "thumb": "/images/work/work08.jpg"
+    },
+    {
+      "title": "푸르지오 분양사이트 : 문수로",
+      "contents": "템플릿화 · 지역에 따라 내용이 변경되는 사이트",
+      "date": "Jan 2022 - Mar 2022",
+      "link": "https://www.prugio.com/hc/2022/munsuro",
+      "detail": "https://choijeongminweb.notion.site/b239ec66eea848d692ef668cc990f27c?pvs=4",
+      "skill": "SCSS · Jquery · json · Swiper · Fullpage",
+      "thumb": "/images/work/work07.jpg"
+    },
+    {
+      "title": "타이타늄22 (구)",
+      "contents": "광고회사 타이타늄22 홈페이지 퍼블리싱",
+      "date": "Jan 2022",
+      "link": "https://titanium22.gabia.io/",
+      "detail": "https://choijeongminweb.notion.site/22-8406d6093bde43a1b3893c70c029c41e?pvs=4",
+      "skill": "SCSS · Jquery · scrollMagic · TweenMax",
+      "thumb": "/images/work/work06.jpg"
+    },
+    {
+      "title": "푸르지오 분양사이트 : 달서",
+      "contents": "템플릿화 · 지역에 따라 내용이 변경되는 사이트",
+      "date": "Nov 2021 - Feb 2022",
+      "link": "https://www.prugio.com/hc/2021/dalseo/",
+      "detail": "https://choijeongminweb.notion.site/62a1bbf80a9841058f82794658a95a8d?pvs=4",
+      "skill": "SCSS · Jquery · json · Swiper · Fullpage",
+      "thumb": "/images/work/work05.jpg"
+    },
+    {
+      "title": "푸르지오 분양사이트 : 김천",
+      "contents": "템플릿화 · 지역에 따라 내용이 변경되는 사이트",
+      "date": "Oct 2021 - Dec 2021",
+      "link": "https://www.prugio.com/hc/2021/gimcheon/",
+      "detail": "https://choijeongminweb.notion.site/485e80026a6742538519b409bb2ce370?pvs=4",
+      "skill": "SCSS · Jquery · json · Swiper · Fullpage",
+      "thumb": "/images/work/work04.jpg"
+    },
+    {
+      "title": "푸르지오 분양사이트 : 음성",
+      "contents": "템플릿화 · 지역에 따라 내용이 변경되는 사이트",
+      "date": "Oct 2021 - Dec 2021",
+      "link": "https://www.prugio.com/hc/2021/eumseong/",
+      "detail": "https://choijeongminweb.notion.site/37c31fc88fd34eef8e53658a80f714c4?pvs=4",
+      "skill": "SCSS · Jquery · json · Swiper · Fullpage",
+      "thumb": "/images/work/work03.jpg"
+    },
+    {
+      "title": "푸르지오 분양사이트 : 구미시티",
+      "contents": "템플릿화 · 지역에 따라 내용이 변경되는 사이트",
+      "date": "Oct 2021 - Nov 2021",
+      "link": "https://www.prugio.com/hc/2021/gumicity",
+      "detail": "https://choijeongminweb.notion.site/8ac0e12c945147068556ebb4e1894d7d?pvs=4",
+      "skill": "SCSS · Jquery · json · Swiper · Fullpage",
+      "thumb": "/images/work/work02.jpg"
+    },
+    {
+      "title": "푸르지오 분양사이트 : 당진",
+      "contents": "템플릿화 · 지역에 따라 내용이 변경되는 사이트",
+      "date": "Oct 2021 - Nov 2021",
+      "link": "https://www.prugio.com/hc/2021/dangjin",
+      "detail": "https://choijeongminweb.notion.site/5178b765f48d44beaf5a81861a3c1cf5?pvs=4",
+      "skill": "SCSS · Jquery · json · Swiper · Fullpage",
+      "thumb": "/images/work/work01.jpg"
+    },
+    {
+      "title": "써모스온라인쇼핑몰",
+      "contents": "써모스 온라인쇼핑몰 유지보수",
+      "date": "Oct 2021 - Apr 2022",
+      "link": "https://thermosshop.kr/",
+      "detail": "https://choijeongminweb.notion.site/d35a8520c07f414baaf07172af2ac203?pvs=4",
+      "skill": "Jquery · Swiper",
+      "thumb": "/images/work/work00.jpg"
+    }
+  ]
+  

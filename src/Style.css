@@ -1,22 +1,98 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
+@charset "UTF-8";
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Pretendard", sans-serif;
   font-style: normal;
   font-weight: 400;
-  color: #222;
 }
 
 a {
   text-decoration: none;
 }
 
-.serif {
-  font-family: "Fraunces", serif;
+.en {
+  font-family: "SF Mono", sans-serif;
+}
+
+.inner {
+  width: 1400px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.loading-container {
+  width: 100vw;
+  height: 100vh;
+  background: #0A84FF;
+}
+.loading-container .loading-motion .fill-path {
+  fill: #fff; /* 채워질 색상 */
+  -webkit-clip-path: inset(0 100% 0 0);
+          clip-path: inset(0 100% 0 0); /* 처음에는 전부 가려진 상태 */
+  -webkit-animation: fillAnimation 2s ease-out forwards;
+          animation: fillAnimation 2s ease-out forwards;
+}
+@-webkit-keyframes fillAnimation {
+  to {
+    -webkit-clip-path: inset(0 0 0 0);
+            clip-path: inset(0 0 0 0); /* 전체가 점점 나타남 */
+  }
+}
+@keyframes fillAnimation {
+  to {
+    -webkit-clip-path: inset(0 0 0 0);
+            clip-path: inset(0 0 0 0); /* 전체가 점점 나타남 */
+  }
+}
+
+.btn {
+  padding: 0;
+  height: auto;
+  position: relative;
+  border: none;
+}
+.btn span {
+  padding: 20px 30px;
+  border: 1px solid #212529;
+  border-radius: 5px;
+  font-family: "SF Mono", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  background: #F8F9FA;
+  white-space: nowrap;
+  z-index: 1;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.btn::after {
+  position: absolute;
+  content: "";
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  background: #0A84FF;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.btn:hover span {
+  border-color: #0A84FF;
+  font-weight: 500;
+  color: #0A84FF;
+}
+.btn:hover::after {
+  opacity: 1;
+  top: 5px;
+  left: 5px;
+}
+
+.sub-tit {
+  color: #0A84FF;
+  font-size: 1.5rem;
+  margin-bottom: 40px;
 }

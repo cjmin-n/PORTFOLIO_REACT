@@ -1,22 +1,29 @@
+
+import { LuArrowUp } from "react-icons/lu";
+
 import { Link } from "react-router-dom";
 
 const Footer = () => {
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+    })};
+
     return (
-        <footer>
-            <p className="ft-logo">Choi</p>
-            <small>© 2024 - JEONGMIN CHOI Portfolio</small>
-            <div className="ft-btn-wrap">
-                <Link to={"mailto:mymemose93@gmail.com"} className="btn-mail">
-                    <img src="" alt="mail" />
-                </Link>
-                <Link to={"https://github.com/cjmin-n"} className="btn-github">
-                    <img src="" alt="github" />
-                </Link>
-                <Link to={"https://velog.io/@cjmin-n"} className="btn-velog">
-                    <img src="" alt="velog" />
-                </Link>
-            </div>
-        </footer>
+        <>  
+           <button type="button" className="btn-top inner fixed bottom-0 left-1/2 flex justify-end" onClick={scrollToTop}>
+            
+                <div className="btn-top-inner absolute flex items-center justify-center flex-col">
+                    <LuArrowUp />
+                    <span>TOP</span>
+                </div>
+                
+            </button>
+            <footer>
+                <small className="en">Copyright ©2025 Reserved by <Link to={"https://github.com/cjmin-n"} target="_blank">JeongminChoi.</Link></small>    
+            </footer>
+        </>
     )
 }
 

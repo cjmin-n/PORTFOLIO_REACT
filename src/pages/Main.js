@@ -1,8 +1,9 @@
 import About from "../components/main/About";
 import Contact from "../components/main/Contact";
+import Experience from "../components/main/Experience";
 import Projects from "../components/main/Projects";
-import Skills from "../components/main/Skills";
 import Visual from "../components/main/Visual";
+import './Main.css';
 
 const Main = () => {
 
@@ -10,7 +11,7 @@ const Main = () => {
         <main>
             <Visual />
             <About />
-            <Skills />
+            <Experience />
             <Projects />
             <Contact />
         </main>

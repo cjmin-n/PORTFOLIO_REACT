@@ -1,0 +1,110 @@
+@import '../_Common';
+
+header {
+    height: 114px;
+    z-index: 999;
+   
+
+    .logo {
+        left: 60px;
+
+    }
+    .theme-controller {
+        right: 60px;
+        color: $point !important;
+        --tglbg: #F8F9FA;
+    }
+
+    nav {
+        ul {
+            li {
+                a {
+                    font-weight: 300;
+                    padding: 10px 30px;
+                }
+                &.active, &:hover {
+                    a {
+                        font-weight: 500;
+                        color: $point;
+                    }
+                    
+                }
+
+            }
+        }
+    }
+
+    &.active {
+        background: $bgColor;
+        box-shadow: 0px 15px 0px rgba(0, 0, 0, 0.2);
+    }
+}
+
+footer {
+    text-align: center;
+    // border-top: 1px solid rgba(73,80,87,0.2);
+    padding: 20px 0;
+    small {
+        font-size: 0.875rem;
+        color: $subBlack;
+        a {
+            color: $point;
+            font-weight: 500;
+        }
+    }
+}
+
+$btnWidth: 5rem;
+$btnHeight: 6rem;
+.btn-top {
+    height: $btnHeight;
+    transform: translateX(-50%);
+    pointer-events: none;
+    &-inner {
+        width: $btnWidth;
+        height: $btnHeight;
+        color: #fff;
+        background: $point;
+        border-radius: $borderRadius $borderRadius 0 0;
+        pointer-events: all;
+        right: calc(#{-$btnWidth} + 20px);
+        // right: 20px;
+        svg {
+            width: 24px;
+            height: 24px;
+            margin-bottom: 5px;
+        }
+        span {
+            font-weight: 700;
+        }
+    }
+}
+
+.left-container,
+.right-container {
+    a {
+        writing-mode: vertical-lr;
+        color: $point;
+        font-weight: 500;
+        letter-spacing: 0.1rem;
+        font-size: 0.875rem;
+    }
+    ul {
+        li {
+            svg {
+                width: 20px;
+                height: 20px;
+            }
+            + li {
+                margin-top: 20px;
+            }
+        }
+    }
+    .line {
+        width: 2px;
+        height: 180px;
+        background: $point;
+        display: block;
+        margin-top: 20px;
+    }
+}

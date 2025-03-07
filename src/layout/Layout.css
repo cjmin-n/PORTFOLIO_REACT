@@ -1,0 +1,90 @@
+header {
+  height: 114px;
+  z-index: 999;
+}
+header .logo {
+  left: 60px;
+}
+header .theme-controller {
+  right: 60px;
+  color: #0A84FF !important;
+  --tglbg: #F8F9FA;
+}
+header nav ul li a {
+  font-weight: 300;
+  padding: 10px 30px;
+}
+header nav ul li.active a, header nav ul li:hover a {
+  font-weight: 500;
+  color: #0A84FF;
+}
+header.active {
+  background: #F8F9FA;
+  -webkit-box-shadow: 0px 15px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 15px 0px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+}
+footer small {
+  font-size: 0.875rem;
+  color: #495057;
+}
+footer small a {
+  color: #0A84FF;
+  font-weight: 500;
+}
+
+.btn-top {
+  height: 6rem;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  pointer-events: none;
+}
+.btn-top-inner {
+  width: 5rem;
+  height: 6rem;
+  color: #fff;
+  background: #0A84FF;
+  border-radius: 5px 5px 0 0;
+  pointer-events: all;
+  right: calc(-5rem + 20px);
+}
+.btn-top-inner svg {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 5px;
+}
+.btn-top-inner span {
+  font-weight: 700;
+}
+
+.left-container a,
+.right-container a {
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  color: #0A84FF;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  font-size: 0.875rem;
+}
+.left-container ul li svg,
+.right-container ul li svg {
+  width: 20px;
+  height: 20px;
+}
+.left-container ul li + li,
+.right-container ul li + li {
+  margin-top: 20px;
+}
+.left-container .line,
+.right-container .line {
+  width: 2px;
+  height: 180px;
+  background: #0A84FF;
+  display: block;
+  margin-top: 20px;
+}
