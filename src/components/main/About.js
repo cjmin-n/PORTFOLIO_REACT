@@ -33,7 +33,7 @@ const About = () => {
                             <span className="tab-space"></span>
                             <span className="tab-space"></span>
                             <span className="white">"design": "</span>
-                            <span className="green">4+ years</span>
+                            <span className="green">3+ years</span>
                             <span className="white">",</span>
                         </p>
                         <p>
