@@ -139,6 +139,9 @@ html[data-theme=dark] .section-projects .projects > li .link-wrap > ul > li svg 
 html[data-theme=dark] footer small {
   color: #CED4DA;
 }
+html[data-theme=dark] header {
+  background: #212529;
+}
 html[data-theme=dark] .mobile-nav.active {
   background: #212529;
 }

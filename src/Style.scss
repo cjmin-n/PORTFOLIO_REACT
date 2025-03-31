@@ -174,14 +174,9 @@ html[data-theme="dark"] {
         color: $darkSubBlack;
     }
 
-    // .mobile-menu{
-    //     &.active {
-    //         span {
-    //             background: $black;
-    //         }
-            
-    //     }
-    // }
+    header {
+        background: $black;
+    }
     .mobile-nav {
         &.active {
             background: $black;   
