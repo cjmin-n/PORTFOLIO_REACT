@@ -1,8 +1,14 @@
+import { observeFadeIn } from "../../utils/fadeInOnScroll";
+import { useEffect } from "react";
+
 const About = () => {
+    useEffect(() => {
+        observeFadeIn();
+    }, []);
     return (
         <section id="about" className="section section-about">
             <div className="inner flex justify-between items-center">
-                <div className="coder_wrap">
+                <div className="coder_wrap fade-in">
                     <div className="top">
                         <span></span><span></span><span></span>
                     </div>
@@ -149,24 +155,24 @@ const About = () => {
                         </p>
                     </div>
                 </div>
-                <div className="txt-wrap">
+                <div className="txt-wrap fade-in">
                     <h4 className="en sub-tit">About me</h4>
                     <h3>"디자인 감각을 갖춘 풀스택 개발자, <br/>최정민입니다."</h3>
                     <ul>
                         <li>
-                            <span>▹ </span> UI/UX를 고려한 사용자 중심의 개발을 지향하며, <br/>
+                            <span>▹ </span> UI/UX를 고려한 사용자 중심의 개발을 지향하며, 
                             <strong>디자인부터 퍼블리싱, 개발까지</strong> 폭넓은 경험을 보유하고 있습니다.
                         </li>
                         <li>
-                            <span>▹ </span> React와 Flutter를 활용한 프론트엔드, Spring Boot 기반의 백엔드를 구축하며, <br/>
+                            <span>▹ </span> React와 Flutter를 활용한 프론트엔드, Spring Boot 기반의 백엔드를 구축하며, 
                             <strong>클린 코드와 성능 최적화를 중요하게 생각합니다.</strong>
                         </li>
                         <li>
-                            <span>▹ </span> 빠르게 변화하는 기술 트렌드에 발맞춰 학습하며, <strong>문제를 해결하는 과정에서<br/>
+                            <span>▹ </span> 빠르게 변화하는 기술 트렌드에 발맞춰 학습하며, <strong>문제를 해결하는 과정에서 
                             성장하는 것을 즐깁니다.</strong>
                         </li>
                         <li>
-                            <span>▹ </span> 더 좋은 사용자 경험을 만들기 위해 끊임없이 고민하며, <strong>협업을 통해 <br/>
+                            <span>▹ </span> 더 좋은 사용자 경험을 만들기 위해 끊임없이 고민하며, <strong>협업을 통해 
                             최고의 결과를 만들어내는 개발자가 되고자 합니다.</strong> 🚀
                         </li>
                     </ul>

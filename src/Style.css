@@ -1,6 +1,8 @@
 @charset "UTF-8";
 html {
   scroll-behavior: smooth;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -18,9 +20,13 @@ a {
 }
 
 .inner {
-  width: 1400px;
-  padding: 0 20px;
+  width: 100%;
+  max-width: 1000px;
   margin: 0 auto;
+}
+
+main {
+  padding: 0 150px;
 }
 
 .loading-container {
@@ -93,6 +99,72 @@ a {
 
 .sub-tit {
   color: #0A84FF;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin-bottom: 40px;
+}
+
+.fade-in {
+  opacity: 0;
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
+  will-change: opacity, transform;
+}
+
+html[data-theme=dark] .btn {
+  background: none;
+}
+html[data-theme=dark] .btn span {
+  border-color: white;
+  color: white;
+  background: #212529 !important;
+}
+html[data-theme=dark] .mobile-menu span {
+  background: white;
+}
+html[data-theme=dark] .btn-view {
+  color: #CED4DA;
+}
+html[data-theme=dark] .btn-view::after {
+  background: #CED4DA;
+}
+html[data-theme=dark] .section-experience .content-wrap .swiper-slide p.en {
+  color: #CED4DA;
+}
+html[data-theme=dark] .section-projects .projects > li .txt-wrap .skills span {
+  color: #CED4DA;
+}
+html[data-theme=dark] .section-projects .projects > li .link-wrap > ul > li svg {
+  color: #CED4DA;
+}
+html[data-theme=dark] footer small {
+  color: #CED4DA;
+}
+html[data-theme=dark] .mobile-nav.active {
+  background: #212529;
+}
+
+@media (max-width: 1023px) {
+  main {
+    padding: 0 100px;
+  }
+  .btn span {
+    padding: 15px 25px;
+  }
+  .sub-tit {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  main {
+    padding: 0 20px;
+  }
+  .btn span {
+    padding: 12px 20px;
+    font-size: 0.875rem;
+  }
+  .sub-tit {
+    font-size: 1.125rem;
+    margin-bottom: 25px;
+  }
 }

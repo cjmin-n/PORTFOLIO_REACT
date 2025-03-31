@@ -1,5 +1,6 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import emailjs from "@emailjs/browser";
+import { observeFadeIn } from "../../utils/fadeInOnScroll";
 
 const Contact = () => {
 
@@ -14,6 +15,10 @@ const Contact = () => {
         email: false,
         message: false
     });
+
+    useEffect(() => {
+        observeFadeIn();
+    }, []);
 
     // 입력 값 변경 핸들러
     const handleChange = (e) => {
@@ -50,8 +55,8 @@ const Contact = () => {
     return(
         <section className="section section-contact" id="contact">
             <div className="inner">
-                <h4 className="en sub-tit">Get In Touch</h4>
-                <div className="message-wrap">
+                <h4 className="en sub-tit fade-in">Get In Touch</h4>
+                <div className="message-wrap fade-in">
                     <form onSubmit={handleSubmit}>
                         <div className="flex gap-10">
                         {/* Name */}

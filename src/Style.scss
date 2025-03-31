@@ -1,7 +1,14 @@
 @import './Common';
 
+// Breakpoints
+$desktop: 1439px;
+$mobile: 767px;
+$tablet: 1023px;
+
 html {
     scroll-behavior: smooth;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -21,9 +28,15 @@ a {
 }
 
 .inner {
-    width: 1400px;
-    padding: 0 20px;
+    // width: 1200px;
+    width: 100%;
+    max-width: 1000px;
+    // padding: 0 20px;
     margin: 0 auto;
+}
+
+main {
+    padding: 0 150px;
 }
 
 .loading-container {
@@ -113,6 +126,114 @@ a {
 
 .sub-tit {
     color: $point;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin-bottom: 40px;
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(50px);
+    will-change: opacity, transform;
+  }
+  
+
+// 다크모드 스타일
+html[data-theme="dark"] {
+    .btn {
+        background: none;
+        span {
+            border-color: white;
+            color: white;
+            background: $black !important;
+        }
+    }
+
+    .mobile-menu span {
+        background: white;
+    }
+
+    .btn-view {
+        color: $darkSubBlack;
+        &::after {
+            background: $darkSubBlack;
+        }
+    }
+
+
+    // experience 섹션 회사명
+    .section-experience .content-wrap .swiper-slide p.en {
+        color: $darkSubBlack;
+    }
+    .section-projects .projects > li .txt-wrap .skills span {
+        color: $darkSubBlack;
+    }
+    .section-projects .projects > li .link-wrap > ul > li svg{
+        color: $darkSubBlack;
+    }
+    footer small {
+        color: $darkSubBlack;
+    }
+
+    // .mobile-menu{
+    //     &.active {
+    //         span {
+    //             background: $black;
+    //         }
+            
+    //     }
+    // }
+    .mobile-nav {
+        &.active {
+            background: $black;   
+        }
+    }
+}
+
+// Media Queries
+@media (max-width: $desktop) {
+    .inner {
+        // width: 100%;
+        // max-width: 1100px;
+        // padding: 0 100px;
+    }
+}
+
+@media (max-width: $tablet) {
+    // .inner {
+    //     max-width: 900px;
+    // }
+    main {
+        padding: 0 100px;
+    }
+    
+    .btn {
+        span {
+            padding: 15px 25px;
+        }
+    }
+    
+    .sub-tit {
+        font-size: 1.25rem;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: $mobile) {
+    // .inner {
+    //     padding: 0 15px;
+    // }
+    main {
+        padding: 0 20px;
+    }
+    .btn {
+        span {
+            padding: 12px 20px;
+            font-size: 0.875rem;
+        }
+    }
+    
+    .sub-tit {
+        font-size: 1.125rem;
+        margin-bottom: 25px;
+    }
 }

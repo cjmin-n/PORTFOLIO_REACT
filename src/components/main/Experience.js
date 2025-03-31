@@ -1,16 +1,21 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FreeMode, Thumbs } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { observeFadeIn } from "../../utils/fadeInOnScroll";
 
 const Experience = () => {
 
     const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
+    useEffect(() => {
+        observeFadeIn();
+    }, []);
+
     return(
         <section className="section section-experience" id="experience">
             <div className="inner">
-                <h4 className="en sub-tit">Where I've Worked</h4>
-                <div className="flex flex-row-reverse justify-between">    
+                <h4 className="en sub-tit fade-in">Where I've Worked</h4>
+                <div className="flex flex-row-reverse justify-between fade-in">    
                     <div className="content-wrap">
                         <Swiper
                             spaceBetween={10}
@@ -68,6 +73,16 @@ const Experience = () => {
                             watchSlidesProgress={true}
                             modules={[FreeMode, Thumbs]}
                             direction="vertical"
+                            breakpoints={{
+                                0: {
+                                  direction: 'horizontal', // 0px 이상에서는 horizontal
+                                  slidesPerView: 3, // 필요 시 수정
+                                },
+                                768: {
+                                  direction: 'vertical', // 768px 이상부터 vertical
+                                  slidesPerView: 4,
+                                }
+                              }}
                         >
                             <SwiperSlide>원스인터랙티브</SwiperSlide>
                             <SwiperSlide>앤드모어</SwiperSlide>
