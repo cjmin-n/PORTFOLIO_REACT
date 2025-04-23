@@ -1,6 +1,9 @@
 .section {
   width: 100%;
-  padding: 150px 0 0;
+  padding: 150px 150px 0;
+}
+.section-visual {
+  position: relative;
 }
 .section-visual .txt-wrap div p {
   font-weight: 800;
@@ -62,6 +65,62 @@
 .section-visual .typing-effect {
   letter-spacing: 0.05em;
   white-space: nowrap;
+}
+.section-visual .scroll-indicator {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  pointer-events: none;
+  z-index: 1000;
+  -webkit-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.section-visual .scroll-indicator.hidden {
+  opacity: 0;
+}
+.section-visual .scroll-indicator.visible {
+  opacity: 1;
+}
+.section-visual .scroll-text {
+  width: 100%;
+  height: 100%;
+  -webkit-animation: rotate 6s linear infinite;
+          animation: rotate 6s linear infinite;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.section-visual .scroll-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 12px;
+  height: 12px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
 }
 .section-about .coder_wrap {
   background: #212529;
@@ -307,6 +366,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   height: 100%;
+  pointer-events: none;
 }
 .section-projects .projects > li .txt-wrap .en {
   color: #0A84FF;
@@ -348,6 +408,7 @@
 }
 .section-projects .projects > li .link-wrap {
   margin-top: 30px;
+  pointer-events: all !important;
 }
 .section-projects .projects > li .link-wrap > ul {
   -webkit-box-pack: end;
@@ -566,13 +627,20 @@
 
 @media (max-width: 1023px) {
   .section {
-    padding: 200px 0 0;
+    padding: 200px 100px 0;
   }
   .section-visual {
     height: auto !important;
   }
   .section-visual .txt-wrap div p {
     font-size: 4rem;
+  }
+  .section-visual .scroll-indicator {
+    position: fixed;
+    right: 50px;
+    bottom: 50%;
+    -webkit-transform: unset;
+            transform: unset;
   }
   .section-about .inner {
     -webkit-box-orient: vertical;
@@ -633,11 +701,8 @@
   }
 }
 @media (max-width: 767px) {
-  main {
-    padding: 0 20px;
-  }
   .section {
-    padding: 150px 0 0;
+    padding: 150px 20px 0;
   }
   .section-visual .txt-wrap div p {
     font-size: 2.5rem;
@@ -647,6 +712,16 @@
   }
   .section-visual .btn-wrap {
     margin-top: 40px;
+  }
+  .section-visual .scroll-indicator {
+    width: 90px;
+    height: 90px;
+    bottom: 55vh;
+    right: 20px;
+  }
+  .section-visual .scroll-indicator .scroll-center {
+    width: 8px;
+    height: 8px;
   }
   .section-about .coder_wrap .bottom {
     padding: 20px;

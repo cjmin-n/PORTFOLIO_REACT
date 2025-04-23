@@ -10,7 +10,7 @@ export const ProjectCard = ({title, summary, description, skills, notion, github
     const [ isPlaying, setIsPlaying ] = useState(false);
     const [ isVideoExisting, setIsVideoExisting ] = useState(false);
 
-    const isVerticalVideo = title?.includes("LocaTrip");
+    // const isVerticalVideo = title?.includes("LocaT");
 
 
     const handleClickPlay = () => {
@@ -43,7 +43,7 @@ export const ProjectCard = ({title, summary, description, skills, notion, github
                             ref={videoRef}
                             controls
                             muted
-                            className={`w-full ${isVerticalVideo ? "object-contain w-auto h-full" : "object-cover"} ${isPlaying ? "opacity-100": "opacity-0"}`}
+                            className={`w-full object-cover ${isPlaying ? "opacity-100": "opacity-0"}`}
                         >
                             <source src={url.video} type="video/mp4" />
                         </video>

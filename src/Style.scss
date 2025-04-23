@@ -33,9 +33,9 @@ a {
     margin: 0 auto;
 }
 
-main {
-    padding: 0 150px;
-}
+// main {
+//     padding: 0 150px;
+// }
 
 .loading-container {
     width: 100vw;
@@ -47,7 +47,6 @@ main {
             clip-path: inset(0 100% 0 0); /* 처음에는 전부 가려진 상태 */
             animation: fillAnimation 2s ease-out forwards;
         }
-          
         @keyframes fillAnimation {
         to {
             clip-path: inset(0 0 0 0); /* 전체가 점점 나타남 */
@@ -79,6 +78,7 @@ main {
     height: auto;
     position: relative;
     border: none;
+    min-height: auto;
 
     span {
         padding: 15px 20px;
@@ -195,9 +195,9 @@ html[data-theme="dark"] {
     // .inner {
     //     max-width: 900px;
     // }
-    main {
-        padding: 0 100px;
-    }
+    // main {
+    //     padding: 0 100px;
+    // }
     
     .btn {
         span {
@@ -215,9 +215,9 @@ html[data-theme="dark"] {
     // .inner {
     //     padding: 0 15px;
     // }
-    main {
-        padding: 0 20px;
-    }
+    // main {
+    //     padding: 0 20px;
+    // }
     .btn {
         span {
             padding: 12px 20px;

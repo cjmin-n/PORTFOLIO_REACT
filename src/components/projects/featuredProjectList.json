@@ -5,20 +5,20 @@
         "thumbnail": "/images/prj-rezoom.jpg",
         "description": "LangGraph 기반 멀티에이전트 흐름을 설계해, 이력서 평가 결과에 따라 피드백 또는 커리어 로드맵을 자동 생성했습니다. LLaMA 모델을 파인튜닝하고, Confusion Matrix로 성능을 평가하며 GPT-4o 수준의 결과를 목표로 했습니다.",
         "skills": ["LangGraph", "CrewAI", "FastAPI", "SpringBoot", "MongoDB", "PostgreSQL", "HuggingFace"],
-        "notion": "https://notion.link.rezoom",
-        "github": "https://github.com/AI-5team-final",
+        "notion": "https://www.notion.so/choijeongminweb/Rezoom-AI-625177fb91f24e7692ed3b54e7139f68?pvs=4",
+        "github": "https://github.com/orgs/Team-Rezoom/repositories",
         "url": { 
             "video": "",
             "other": ""
         }
     },
     {
-        "title": "LocaTrip - 여행 일정 공유 앱",
+        "title": "LocaT - 여행 일정 공유 앱",
         "summary": "Flutter 기반의 모바일 앱으로, 현지인과 여행자가 함께 일정을 계획하고 공유할 수 있는 플랫폼입니다.",
         "thumbnail": "/images/prj-locat.jpg",
         "description": "Flutter로 앱을 구현하고, Kakao 메시지 API와 Google 지도 마커를 활용해 일정을 공유하고 시각화하는 기능을 개발했습니다. UI/UX 흐름부터 초대 링크 설계까지 사용자 경험 중심으로 기획했습니다.",
         "skills": ["Flutter", "React", "KakaoAPI", "GoogleMapsAPI", "SpringBoot", "MySQL", "Docker", "Jenkins"],
-        "notion": "https://notion.link.locatrip",
+        "notion": "https://www.notion.so/choijeongminweb/LocaT-1de4cda202938048807cd8a6c2db9b9f?pvs=4",
         "github": "https://github.com/beforeitcools/flutter-locatrip.git",
         "url": { 
             "video": "/video/video-locat.mp4",
@@ -31,8 +31,8 @@
         "thumbnail": "/images/prj-climon.jpg",
         "description": "Spring Security를 기반으로 로그인, 마이페이지, 소셜 로그인 기능을 구현하고, 인증 흐름 전반을 직접 설계했습니다. 실사용 흐름을 고려해 구조를 다듬고, 배포 오류를 해결하는 경험도 포함되어 있습니다.",
         "skills": ["SpringBoot", "SpringSecurity", "Thymeleaf", "MyBatis", "MySQL", "KakaoOAuth", "Notion"],
-        "notion": "https://notion.link.climon",
-        "github": "ttps://github.com/the-most-perfect-3T/climb-on.git",
+        "notion": "https://www.notion.so/choijeongminweb/CLI-MON-1de4cda2029380d498e7f61a5e5b8591?pvs=4",
+        "github": "https://github.com/the-most-perfect-3T/climb-on.git",
         "url": { 
             "video": "/video/video-climon.mp4",
             "other": ""

@@ -14,7 +14,7 @@ const Projects = () => {
 
     return (
         <> 
-            <section className = "section section-projects" id = "projects" > 
+            <section className="section section-projects" id="projects" > 
                 <div className="inner">
                     <h4 className="en sub-tit fade-in">SomeThings I've Built</h4>
                     <ul className="projects">

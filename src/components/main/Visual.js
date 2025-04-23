@@ -1,5 +1,6 @@
 import { useOutletContext } from "react-router-dom";
 import { useEffect, useState } from "react";
+import { ScrollDown } from "../ScrollDown";
 
 const Visual = () => {
   const { visualRef, startTyping } = useOutletContext(); // context로 startTyping 받음
@@ -53,6 +54,7 @@ const Visual = () => {
           </div>
         </div>
       </div>
+      <ScrollDown/>
     </section>
   );
 };
