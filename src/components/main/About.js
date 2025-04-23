@@ -157,11 +157,11 @@ const About = () => {
                 </div>
                 <div className="txt-wrap fade-in">
                     <h4 className="en sub-tit">About me</h4>
-                    <h3>"디자인 감각을 갖춘 풀스택 개발자, <br/>최정민입니다."</h3>
+                    <h3>사용자의 입장에서<br/>문제를 해결하는 개발자</h3>
                     <ul>
                         <li>
                             <span>▹ </span> UI/UX를 고려한 사용자 중심의 개발을 지향하며, 
-                            <strong>디자인부터 퍼블리싱, 개발까지</strong> 폭넓은 경험을 보유하고 있습니다.
+                            <strong>프론트엔드부터 LLM기반 AI 엔지니어링까지</strong> 폭넓은 경험을 보유하고 있습니다.
                         </li>
                         <li>
                             <span>▹ </span> React와 Flutter를 활용한 프론트엔드, Spring Boot 기반의 백엔드를 구축하며, 

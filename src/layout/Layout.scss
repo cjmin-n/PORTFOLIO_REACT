@@ -18,10 +18,13 @@ header {
     .logo {
         left: 60px;
         // width: 34px;
+        
         a {
             font-size: 2rem;
             font-weight: 800;
             color: $point;
+            display: flex;
+            align-items: flex-start;
             span {
                 // display: inline-block;
                 font-size: 1rem;
@@ -88,6 +91,7 @@ header {
                 a {
                     font-weight: 300;
                     padding: 10px 30px;
+                    font-size: 0.875rem;
                 }
                 &.active, &:hover {
                     a {
@@ -200,7 +204,7 @@ footer {
     text-align: center;
     padding: 20px 0;
     small {
-        font-size: 0.875rem;
+        font-size: 0.75rem;
         color: $subBlack;
         a {
             color: $point;

@@ -15,8 +15,8 @@ module.exports = {
                     "secondary": "#495057",
                     "accent": "#FF6B6B",
                     "neutral": "#F3F4F6",
-                    "base-100": "#F8F9FA", // 배경 색상
-                    "base-200": "#f1f3f5", // 카드 배경 색상
+                    "base-100": "#fefeff", // 배경 색상
+                    "base-200": "#edf0f2", // 카드 배경 색상
                     "base-content": "#212529", // 기본 텍스트 색상
                 }
             },

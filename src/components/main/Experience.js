@@ -27,9 +27,9 @@ const Experience = () => {
                                 <p>웹퍼블리셔 <span>개발팀 대리</span><span>|</span>  <span>PM</span></p>
                                 <p className="en">Oct 2021 - May 2024</p>
                                 <ul>
-                                    <li><span>▹ </span> 회사, 병원, 학교, 쇼핑몰 등 다양한 종류 홈페이지 퍼블리싱</li>
-                                    <li><span>▹ </span> 카페24 쇼핑몰, 카페24 빌더호스팅 퍼블리싱</li>
-                                    <li><span>▹ </span> 기획, 일정 관리, 팀 조율 및 의사결정</li>
+                                    <li><span>▹ </span> 다양한 산업군의 웹사이트 퍼블리싱 및 유지보수</li>
+                                    <li><span>▹ </span> 웹어워드코리아 3관왕 프로젝트 참여 (광고/문화/첨단산업 분야)</li>
+                                    <li><span>▹ </span> 퍼블리셔 관점에서 UI 구조 설계를 주도하고, 클라이언트와 일정 조율 경험</li>
                                 </ul>
                             </SwiperSlide>
                             
@@ -37,29 +37,27 @@ const Experience = () => {
                                 <p>웹디자이너 <span>기획팀 주임</span></p>
                                 <p className="en">Jan 2019 - May 2021</p>
                                 <ul>
-                                    <li><span>▹ </span> 상세페이지 작업(상시 업데이트, 온라인 플리마켓 등 페이지 작업)</li>
-                                    <li><span>▹ </span> 어플리케이션 푸시배너 작업</li>
-                                    <li><span>▹ </span> 인물 / 의류 사진 보정 작업</li>
-                                    <li><span>▹ </span> 사원증,명함 작업</li>
+                                    <li><span>▹ </span> 지그재그 앱 내 여성 쇼핑몰 1위 달성에 기여</li>
+                                    <li><span>▹ </span> 상세페이지, 이벤트 이미지 등 상업 디자인 전반 제작</li>
+                                    <li><span>▹ </span> 사용자 행동 기반의 시각 설계에 익숙해짐</li>
                                 </ul>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <p>웹디자이너 <span>온라인사업부 사원</span></p>
                                 <p className="en">Jul 2018 - Dec 2018</p>
                                 <ul>
-                                    <li><span>▹ </span> 상세페이지 작업(인물 보정 및 상세문구 작업)</li>
-                                    <li><span>▹ </span> 스토어팜, 네이버 광고 배너 작업</li>
-                                    <li><span>▹ </span> 사방넷 상품 등록(11번가, 쿠팡, 위메프, GSshop, 하프클럽, 홈앤쇼핑, 스토어팜 상품등록 및 전시)</li>
-                                    <li><span>▹ </span> 위메프, 티몬 딜 작업 (이미지 제작)</li>
-                                    <li><span>▹ </span> 제품 상세컷 촬영 / 자사몰 기획</li>
+                                    <li><span>▹ </span> 상세페이지 이미지 작업 및 인물 보정, 제품 촬영까지 전 과정 직접 수행</li>
+                                    <li><span>▹ </span> 스토어팜, 11번가, 쿠팡 등 다양한 플랫폼에 상품 등록 및 전시</li>
+                                    <li><span>▹ </span> 광고 배너 및 기획전 이미지 제작을 통해 브랜드 시각 정체성 유지</li>
+                                    <li><span>▹ </span> 자사몰 기획 및 위메프·티몬 등 딜 페이지 전담</li>
                                 </ul>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <p>쇼핑몰관리<span className="ml-0">기획팀 사원</span></p>
                                 <p className="en">Jan 2017 - Oct 2017</p>
                                 <ul>
-                                    <li><span>▹ </span> 일동제약 온라인쇼핑몰 관리 업무(cs,판매정산,쇼핑몰유지보수)</li>
-                                    <li><span>▹ </span> 서울시 사회적경제우수기업, (주)아이베 (SNS, 블로그 바이럴 마케팅)</li>
+                                    <li><span>▹ </span> 일동제약 온라인 쇼핑몰 운영 전반 담당 (CS, 판매 정산, 유지보수)</li>
+                                    <li><span>▹ </span> 서울시 사회적경제우수기업 (주)아이베 SNS, 블로그 바이럴 마케팅</li>
                                 </ul>
                             </SwiperSlide>
                         </Swiper>

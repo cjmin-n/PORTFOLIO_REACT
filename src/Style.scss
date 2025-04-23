@@ -15,8 +15,6 @@ body {
     font-family: "Pretendard", sans-serif;
     font-style: normal;
     font-weight: 400;
-    // color: $black;
-    // background: $bgColor;
 }
 
 a {
@@ -48,13 +46,13 @@ main {
             fill: #fff; /* 채워질 색상 */
             clip-path: inset(0 100% 0 0); /* 처음에는 전부 가려진 상태 */
             animation: fillAnimation 2s ease-out forwards;
-          }
+        }
           
-          @keyframes fillAnimation {
-            to {
-              clip-path: inset(0 0 0 0); /* 전체가 점점 나타남 */
-            }
-          }
+        @keyframes fillAnimation {
+        to {
+            clip-path: inset(0 0 0 0); /* 전체가 점점 나타남 */
+        }
+        }
         // .draw-path {
         //     stroke: #fff; /* 원하는 색상 */
         //     stroke-width: 2; /* 선 굵기 */
@@ -83,11 +81,11 @@ main {
     border: none;
 
     span {
-        padding: 20px 30px;
+        padding: 15px 20px;
         border: 1px solid $black;
         border-radius: $borderRadius;
         font-family: "SF Mono", sans-serif;
-        font-size: 1rem;
+        font-size: 0.875rem;
         font-weight: 400;
         background: $bgColor;
         white-space: nowrap;

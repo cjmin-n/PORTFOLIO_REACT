@@ -17,8 +17,6 @@ const Layout = ({ isdark, setIsdark, darkMode, setDarkMode }) => {
     const [startTyping, setStartTyping] = useState(false); // 추가
 
     useEffect(() => {
-        const el = headerRef.current?.querySelector("#btn-control");
-    console.log('btn-control:', el); // null이면 못 찾은 것
 
         const tl = gsap.timeline();
 
@@ -26,7 +24,7 @@ const Layout = ({ isdark, setIsdark, darkMode, setDarkMode }) => {
         tl.from(headerRef.current.querySelector(".logo"), { 
             opacity: 0, 
             y: -20, 
-            duration: 0.6, 
+            duration: 0.5, 
             ease: "power3.out" 
         })
         .from(headerRef.current.querySelectorAll("nav ul li"), { 
@@ -39,13 +37,13 @@ const Layout = ({ isdark, setIsdark, darkMode, setDarkMode }) => {
         .from(headerRef.current.querySelector("#btn-control"), { 
             opacity: 0, 
             y: -10,
-            duration: 0.6, 
+            duration: 0.5, 
             ease: "power3.out" 
         })
         .fromTo(headerRef.current.querySelector(".mobile-menu"), { 
             opacity: 0, 
             
-            duration: 0.6, 
+            duration: 0.5, 
             ease: "power3.out" 
         }, { 
             opacity: 1, 
@@ -56,14 +54,13 @@ const Layout = ({ isdark, setIsdark, darkMode, setDarkMode }) => {
         tl.from(visualRef.current.querySelectorAll(".txt-wrap div"), {
             opacity: 0,
             y: 20,
-            duration: 0.8,
+            duration: 0.5,
             stagger: 0.2, // 순차적 등장
             ease: "power3.out"
-        }, "+=0.3");
-       
+        }, "+=0.2");
         tl.from(".left-container, .right-container", {
             opacity: 0,
-            duration: 0.6,
+            duration: 0.5,
             ease: "power3.out"
         })
         .add(() => {
