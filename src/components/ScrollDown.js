@@ -8,7 +8,7 @@ export const ScrollDown = () => {
     
 
     useEffect(() => {
-        const isMobile = window.matchMedia("(max-width: 1023px)").matches;
+        const isMobile = window.matchMedia("(max-width: 1024px)").matches;
         if(isMobile) {
             setIsVisible(true);
             return;

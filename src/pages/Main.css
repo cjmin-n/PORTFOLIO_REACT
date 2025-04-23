@@ -625,7 +625,7 @@
   background: #edf0f2;
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1024px) {
   .section {
     padding: 200px 100px 0;
   }
@@ -700,7 +700,7 @@
     grid-template-columns: minmax(0, 1fr);
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .section {
     padding: 150px 20px 0;
   }
@@ -716,7 +716,7 @@
   .section-visual .scroll-indicator {
     width: 90px;
     height: 90px;
-    bottom: 55vh;
+    bottom: 90vw;
     right: 20px;
   }
   .section-visual .scroll-indicator .scroll-center {
