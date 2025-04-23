@@ -2,6 +2,7 @@ import React, { useState, useEffect, forwardRef, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { FiGithub, FiInstagram } from "react-icons/fi";
 import { SiVelog } from "react-icons/si";
+import { RiNotionLine } from 'react-icons/ri';
 
 const Header = forwardRef(({ isdark, setIsdark, darkMode, setDarkMode }, ref) => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -56,7 +57,7 @@ const Header = forwardRef(({ isdark, setIsdark, darkMode, setDarkMode }, ref) =>
             <header ref={(node) => {
                 headerRef.current = node;
                 if (ref) typeof ref === 'function' ? ref(node) : ref.current = node;
-            }} className="fixed w-full top-0 left-0 z-50 ">
+            }} className="fixed w-full top-0 left-0">
                 <div className="flex items-center justify-center h-full">
                     <h1 className="logo absolute">
                         <Link to="/">
@@ -101,15 +102,19 @@ const Header = forwardRef(({ isdark, setIsdark, darkMode, setDarkMode }, ref) =>
                     </ul>
                     <div className="mobile-bottom">
                         <div className="social-links">
-                            <a href="https://github.com/cjmin-n" target="_blank" rel="noopener noreferrer">
+                            <Link href="https://github.com/cjmin-n" target="_blank">
                                 <FiGithub />
-                            </a>
-                            <a href="https://velog.io/@cjmin" target="_blank" rel="noopener noreferrer">
+                            </Link>
+                            <Link to={"https://www.notion.so/choijeongminweb/Jeongmin-Choi-5efa63d3ac8c4a4db3165acd2c208ae2?pvs=4"} target="_blank">
+                                <RiNotionLine/>
+                            </Link>
+                            <Link href="https://velog.io/@cjmin" target="_blank">
                                 <SiVelog />
-                            </a>
-                            <a href="https://www.instagram.com/cjmin_n/" target="_blank" rel="noopener noreferrer">
+                            </Link>
+                            {/* <a href="https://www.instagram.com/cjmin_n/" target="_blank" rel="noopener noreferrer">
                                 <FiInstagram />
-                            </a>
+                            </a> */}
+                            
                         </div>
                         <div className="email">
                             <a href="mailto:mymemose93@gmail.com">mymemose93@gmail.com</a>

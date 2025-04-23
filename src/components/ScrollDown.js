@@ -17,16 +17,13 @@ export const ScrollDown = () => {
         const container = document.querySelector(".section-visual");
 
         const handleMouseMove = (e) => {
-            
-            
-
             if (!indicatorRef.current) return;
 
             const hoveredEl = document.elementFromPoint(e.clientX, e.clientY);
             const hoveredCursor = getComputedStyle(hoveredEl).cursor;
 
             if (hoveredCursor === "pointer") {
-                setIsVisible(false); // pointer일 땐 숨김
+                setIsVisible(false);
                 return;
             }
 
@@ -59,7 +56,7 @@ export const ScrollDown = () => {
     return (
         <div 
             ref={indicatorRef}
-            className={`scroll-indicator ${isVisible ? "visible" : "hidden"}`}
+            className={`scroll-indicator ${isVisible ? "" : "hidden"}`}
         >
             <img src="/images/scrollText.png" alt="scroll text" className="scroll-text rotating" />
             <img src="/images/centerStar.png" alt="center star" className="scroll-center" />

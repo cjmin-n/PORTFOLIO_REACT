@@ -71,7 +71,7 @@
   width: 120px;
   height: 120px;
   pointer-events: none;
-  z-index: 1000;
+  z-index: 10;
   -webkit-transition: opacity 0.2s ease;
   transition: opacity 0.2s ease;
   -webkit-transform: translate(-50%, -50%);
@@ -641,6 +641,7 @@
     bottom: 50%;
     -webkit-transform: unset;
             transform: unset;
+    opacity: 0;
   }
   .section-about .inner {
     -webkit-box-orient: vertical;

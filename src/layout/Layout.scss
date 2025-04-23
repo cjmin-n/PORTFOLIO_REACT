@@ -174,18 +174,26 @@ header {
             .social-links {
                 display: flex;
                 justify-content: center;
+                align-items: center;
                 gap: 20px;
                 margin-bottom: 30px;
                 
                 a {
+                    display: block;
+                    width: 24px;
+                    height: 24px;
                     svg {
-                        width: 24px;
-                        height: 24px;
+                        width: 100%;
+                        height: 100%;
                         color: $black;
                         
                         &:hover {
                             color: $point;
                         }
+                    }
+                    &:nth-of-type(2){
+                        width: 28px;
+                        height: 28px;
                     }
                 }
             }
@@ -246,17 +254,6 @@ footer {
         letter-spacing: 0.1rem;
         font-size: 0.875rem;
     }
-    ul {
-        li {
-            svg {
-                width: 20px;
-                height: 20px;
-            }
-            + li {
-                margin-top: 20px;
-            }
-        }
-    }
     .line {
         width: 2px;
         height: 180px;
@@ -264,6 +261,35 @@ footer {
         display: block;
         margin-top: 20px;
     }
+}
+.left-container {
+    ul {
+        li {
+            a {
+                display: block;
+                width: 20px;
+                height: 20px;
+                margin: 0 auto;
+                svg {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+                
+            }
+            &:nth-of-type(2){
+                a {
+                    width: 26px;
+                    height: 26px;
+                }
+                
+            }
+            + li {
+                margin-top: 20px;
+            }
+        }
+    }
+    
 }
 
 // Media Queries

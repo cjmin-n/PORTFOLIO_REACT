@@ -9,6 +9,7 @@ import { SiVelog } from "react-icons/si";
 import { FaInstagram } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
 import { BsArrowUpShort } from "react-icons/bs";
+import { RiNotionLine } from "react-icons/ri";
 
 const Layout = ({ isdark, setIsdark, darkMode, setDarkMode }) => {
     const headerRef = useRef(null);
@@ -57,8 +58,9 @@ const Layout = ({ isdark, setIsdark, darkMode, setDarkMode }) => {
             duration: 0.5,
             stagger: 0.2, // 순차적 등장
             ease: "power3.out"
-        }, "+=0.2");
-        tl.from(".left-container, .right-container", {
+        }, "+=0.2").add(() => {
+            document.querySelector(".scroll-indicator").classList.add("visible");
+        }).from(".left-container, .right-container", {
             opacity: 0,
             duration: 0.5,
             ease: "power3.out"
@@ -98,8 +100,11 @@ const Layout = ({ isdark, setIsdark, darkMode, setDarkMode }) => {
                         </Link>
                     </li>
                     <li>
-                        <Link to={"https://www.instagram.com/cjmin_n"} target="_blank">
+                        {/* <Link to={"https://www.instagram.com/cjmin_n"} target="_blank">
                             <FaInstagram/>
+                        </Link> */}
+                        <Link to={"https://www.notion.so/choijeongminweb/Jeongmin-Choi-5efa63d3ac8c4a4db3165acd2c208ae2?pvs=4"} target="_blank">
+                            <RiNotionLine/>
                         </Link>
                     </li>
                     <li>
