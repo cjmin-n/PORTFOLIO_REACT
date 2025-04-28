@@ -1,21 +1,21 @@
-import { Outlet } from "react-router-dom";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import { Link } from "react-router-dom";
-import './Layout.css';
 import { useEffect, useRef, useState } from "react";
-import gsap from "gsap";
+import { Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { SiVelog } from "react-icons/si";
 import { FaInstagram } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
-import { BsArrowUpShort } from "react-icons/bs";
 import { RiNotionLine } from "react-icons/ri";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import gsap from "gsap";
+import './Layout.css';
+
 
 const Layout = ({ isdark, setIsdark, darkMode, setDarkMode }) => {
     const headerRef = useRef(null);
     const visualRef = useRef(null);
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-    const [startTyping, setStartTyping] = useState(false); // 추가
+    const [startTyping, setStartTyping] = useState(false);
 
     useEffect(() => {
 
@@ -43,12 +43,10 @@ const Layout = ({ isdark, setIsdark, darkMode, setDarkMode }) => {
         })
         .fromTo(headerRef.current.querySelector(".mobile-menu"), { 
             opacity: 0, 
-            
             duration: 0.5, 
             ease: "power3.out" 
         }, { 
             opacity: 1, 
-            
         });
 
         // Visual 내부 요소 순차 애니메이션

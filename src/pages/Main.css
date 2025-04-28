@@ -629,9 +629,6 @@
   .section {
     padding: 200px 100px 0;
   }
-  .section-visual {
-    height: auto !important;
-  }
   .section-visual .txt-wrap div p {
     font-size: 4rem;
   }
@@ -681,9 +678,9 @@
   }
   .section-projects .projects > li .img-wrap {
     width: 100%;
-    height: 310px;
+    height: auto;
     position: absolute;
-    top: 155px;
+    top: 154px;
   }
   .section-projects .projects > li .txt-wrap {
     position: static;
@@ -691,11 +688,11 @@
     z-index: 1;
   }
   .section-projects .projects > li .txt-wrap .desc-wrap {
-    height: 310px;
-    background: rgba(241, 243, 245, 0.5);
+    background: none;
+    padding: 66% 0 0;
   }
   .section-projects .projects > li + li {
-    margin-top: 20px;
+    margin-top: 60px;
   }
   .section-work .list {
     grid-template-columns: minmax(0, 1fr);
@@ -792,5 +789,10 @@
   }
   .section-contact .message-wrap {
     padding: 40px 20px;
+  }
+}
+@media (max-width: 526px) {
+  .section-projects .projects > li .img-wrap {
+    top: 224px;
   }
 }

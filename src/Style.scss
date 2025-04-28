@@ -168,16 +168,27 @@ html[data-theme="dark"] {
     .section-projects .projects > li .link-wrap > ul > li svg{
         color: $darkSubBlack;
     }
+    
     footer small {
         color: $darkSubBlack;
     }
 
     header {
-        background: $black;
+        background-color: var(--fallback-b1,oklch(var(--b1)/1));
     }
     .mobile-nav {
         &.active {
-            background: $black;   
+            background-color: var(--fallback-b1,oklch(var(--b1)/1)); 
+        }
+    }
+    .mobile-nav .nav-content .mobile-bottom .social-links a svg {
+        color: $darkSubBlack;
+    }
+
+    
+    @media (max-width: 960px){
+        .section-projects .projects > li .txt-wrap .desc-wrap p {
+            color: $darkSubBlack;
         }
     }
 }

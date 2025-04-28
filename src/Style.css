@@ -137,10 +137,18 @@ html[data-theme=dark] footer small {
   color: #CED4DA;
 }
 html[data-theme=dark] header {
-  background: #212529;
+  background-color: var(--fallback-b1, oklch(var(--b1)/1));
 }
 html[data-theme=dark] .mobile-nav.active {
-  background: #212529;
+  background-color: var(--fallback-b1, oklch(var(--b1)/1));
+}
+html[data-theme=dark] .mobile-nav .nav-content .mobile-bottom .social-links a svg {
+  color: #CED4DA;
+}
+@media (max-width: 960px) {
+  html[data-theme=dark] .section-projects .projects > li .txt-wrap .desc-wrap p {
+    color: #CED4DA;
+  }
 }
 
 @media (max-width: 1023px) {

@@ -285,7 +285,7 @@ footer small a {
     height: 90px;
   }
   header .logo {
-    left: 40px;
+    left: 20px;
   }
   header nav {
     display: none;
@@ -293,7 +293,7 @@ footer small a {
   header .mobile-menu {
     display: block;
     position: absolute;
-    right: 40px;
+    right: 20px;
     top: 50%;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
@@ -315,15 +315,11 @@ footer small a {
   header {
     height: 70px;
   }
-  header .logo {
-    left: 20px;
-  }
   header .logo svg {
     width: 30px;
     height: 30px;
   }
   header .mobile-menu {
-    right: 20px;
     width: 24px;
     height: 20px;
   }

@@ -29,7 +29,7 @@ const Experience = () => {
                                 <ul>
                                     <li><span>▹ </span> 다양한 산업군의 웹사이트 퍼블리싱 및 유지보수</li>
                                     <li><span>▹ </span> 웹어워드코리아 3관왕 프로젝트 참여 (광고/문화/첨단산업 분야)</li>
-                                    <li><span>▹ </span> 퍼블리셔 관점에서 UI 구조 설계를 주도하고, 클라이언트와 일정 조율 경험</li>
+                                    <li><span>▹ </span> PM으로 프로젝트 관리 및 고객 대응</li>
                                 </ul>
                             </SwiperSlide>
                             
@@ -38,18 +38,16 @@ const Experience = () => {
                                 <p className="en">Jan 2019 - May 2021</p>
                                 <ul>
                                     <li><span>▹ </span> 지그재그 앱 내 여성 쇼핑몰 1위 달성에 기여</li>
-                                    <li><span>▹ </span> 상세페이지, 이벤트 이미지 등 상업 디자인 전반 제작</li>
-                                    <li><span>▹ </span> 사용자 행동 기반의 시각 설계에 익숙해짐</li>
+                                    <li><span>▹ </span> 상품 상세페이지 및 기획전 페이지 디자인</li>
+                                    <li><span>▹ </span> 앱 푸시용 프로모션 배너 및 이벤트 이미지 제작</li>
                                 </ul>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <p>웹디자이너 <span>온라인사업부 사원</span></p>
                                 <p className="en">Jul 2018 - Dec 2018</p>
                                 <ul>
-                                    <li><span>▹ </span> 상세페이지 이미지 작업 및 인물 보정, 제품 촬영까지 전 과정 직접 수행</li>
-                                    <li><span>▹ </span> 스토어팜, 11번가, 쿠팡 등 다양한 플랫폼에 상품 등록 및 전시</li>
-                                    <li><span>▹ </span> 광고 배너 및 기획전 이미지 제작을 통해 브랜드 시각 정체성 유지</li>
-                                    <li><span>▹ </span> 자사몰 기획 및 위메프·티몬 등 딜 페이지 전담</li>
+                                    <li><span>▹ </span> 이커머스 플랫폼(스토어팜, 쿠팡, 11번가 등) 상품 등록</li>
+                                    <li><span>▹ </span> 상세페이지 디자인 및 콘텐츠 작업</li>
                                 </ul>
                             </SwiperSlide>
                             <SwiperSlide>

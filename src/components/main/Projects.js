@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { observeFadeIn } from "../../utils/fadeInOnScroll";
 import { ProjectCard } from "../projects/ProjectCard";
 import WorkList from "../projects/WorkList";

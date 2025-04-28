@@ -21,9 +21,11 @@ gsap.registerPlugin(useGSAP,TextPlugin);
 
 function App() {
     const [isdark, setIsdark] = useState(
-        JSON.parse(localStorage.getItem('isdark'))
+        JSON.parse(localStorage.getItem('isdark')) ?? false
     );
-    const [darkMode, setDarkMode] = useState(false);
+    const [darkMode, setDarkMode] = useState(
+        JSON.parse(localStorage.getItem('isdark')) ?? false
+    );
 
 
 
@@ -31,6 +33,8 @@ function App() {
     useEffect(() => {
         localStorage.setItem('isdark', JSON.stringify(isdark));
     }, [isdark]);
+    
+    // 다크모드 테마 적용
     useEffect(() => {
         document.documentElement.setAttribute("data-theme", darkMode ? "dark" : "light");
     }, [darkMode]);
