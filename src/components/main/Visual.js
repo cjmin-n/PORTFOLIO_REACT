@@ -2,11 +2,11 @@ import { useOutletContext } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { ScrollDown } from "../ScrollDown";
 
+const WORDS = ["AI-driven", "full-stack", "creative"];
+const COLORS = ["#0A84FF", "#5AB66E", "#FF6B6B"];
+
 const Visual = () => {
   const { visualRef, startTyping } = useOutletContext(); // context로 startTyping 받음
-
-  const words = ["full-stack", "creative", "AI-driven"];
-  const colors = ["#0A84FF", "#5AB66E", "#FF6B6B"];
 
   const [wordIndex, setWordIndex] = useState(0);
   const [letterIndex, setLetterIndex] = useState(0);
@@ -15,7 +15,7 @@ const Visual = () => {
   useEffect(() => {
     if (!startTyping) return;
 
-    const currentWord = words[wordIndex];
+    const currentWord = WORDS[wordIndex];
     const typing = setTimeout(() => {
       setDisplayText(currentWord.slice(0, letterIndex + 1));
       setLetterIndex((prev) => prev + 1);
@@ -25,7 +25,7 @@ const Visual = () => {
       clearTimeout(typing);
       setTimeout(() => {
         setLetterIndex(0);
-        setWordIndex((prev) => (prev + 1) % words.length);
+        setWordIndex((prev) => (prev + 1) % WORDS.length);
         setDisplayText("");
       }, 1500);
     }
@@ -41,7 +41,7 @@ const Visual = () => {
           <div className="change-wrap">
             <p
               className="font-mono text-3xl md:text-4xl typing-effect"
-              style={{ color: colors[wordIndex] }}
+              style={{ color: COLORS[wordIndex] }}
             >
               {displayText}
               <span className="cursor">|</span>

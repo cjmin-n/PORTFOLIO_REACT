@@ -1,15 +1,6 @@
-
-import { LuArrowUp } from "react-icons/lu";
-
 import { Link } from "react-router-dom";
 
 const Footer = () => {
-    const scrollToTop = () => {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-    })};
-
     return (
         <>  
            {/* <button type="button" className="btn-top inner fixed bottom-0 left-1/2 flex justify-end" onClick={scrollToTop}>

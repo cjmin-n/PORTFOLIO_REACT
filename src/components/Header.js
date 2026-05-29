@@ -1,6 +1,6 @@
 import React, { useState, useEffect, forwardRef, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { FiGithub, FiInstagram } from "react-icons/fi";
+import { FiGithub } from "react-icons/fi";
 import { SiVelog } from "react-icons/si";
 import { RiNotionLine } from 'react-icons/ri';
 

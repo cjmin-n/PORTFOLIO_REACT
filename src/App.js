@@ -13,8 +13,7 @@ import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import { TextPlugin } from "gsap/TextPlugin";
 
-// Swiper
-import Swiper from 'swiper/bundle';
+// Swiper (CSS only — Swiper class는 각 컴포넌트에서 직접 import)
 import 'swiper/css/bundle';
 
 
