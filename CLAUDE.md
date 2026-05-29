@@ -18,6 +18,16 @@ npm start        # fetch:notion 자동 실행 → react-scripts start (dev serve
 npm run build    # fetch:notion 자동 실행 → react-scripts build
 npm run fetch:notion  # 노션에서 데이터만 다시 받아오기 (수동 갱신용)
 npm test         # CRA 기본 테스트 (현재 작성된 테스트 없음)
+CI=true npm run build  # Vercel과 동일한 모드 (ESLint warning을 error로 승격)
+```
+
+## Pre-push hook
+
+`.githooks/pre-push`가 push 직전 `CI=true npx react-scripts build`를 실행해 Vercel에서만 발생하는 ESLint 실패를 미리 잡는다 (React/빌드 영향 파일 변경 시에만 실행, 그 외 skip). 긴급 우회: `git push --no-verify`.
+
+**다른 머신에서 clone 후 한 번 설정 필요:**
+```bash
+git config core.hooksPath .githooks
 ```
 
 `start`와 `build`는 항상 `fetch:notion`이 먼저 돌도록 chain 되어 있다. 노션 데이터 변경 후 사이트에 반영하려면 다시 빌드/스타트하거나 `npm run fetch:notion`만 별도 실행.
