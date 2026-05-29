@@ -5,9 +5,11 @@
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@gsap/react": "^2.1.2",
+    "@notionhq/client": "^5.22.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "dotenv": "^17.4.2",
     "framer-motion": "^12.4.10",
     "gsap": "^3.12.7",
     "react": "^18.3.1",
@@ -20,10 +22,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "npm run fetch:notion && react-scripts start",
+    "build": "npm run fetch:notion && react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "fetch:notion": "node scripts/fetch-notion.js"
   },
   "eslintConfig": {
     "extends": [

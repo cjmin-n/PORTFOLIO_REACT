@@ -3,6 +3,7 @@ import Layout from "./layout/Layout";
 import Main from "./pages/Main";
 import Error from "./pages/Error";
 import Archive from "./pages/Archive";
+import Projects from "./pages/Projects";
 import { useEffect, useState } from "react";
 import './index.css';
 import './Style.css';
@@ -46,6 +47,7 @@ function App() {
                 <Routes>
                     <Route path="/" element={<Layout isdark={isdark} setIsdark={setIsdark} darkMode={darkMode} setDarkMode={setDarkMode}/>}>
                         <Route index element={<Main/>} />
+                        <Route path="projects" element={<Projects/>} />
                         <Route path="archive" element={<Archive/>} />
                     </Route>
                     <Route path="*" element={<Error/>}/>

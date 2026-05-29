@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import Archive from "../../pages/Archive";
 import { RiShareBoxLine } from "react-icons/ri";
 import { RiNotionLine } from "react-icons/ri";
 import projectList from "./projectList.json";
@@ -31,7 +30,7 @@ const Work = () => {
         <section className="section section-work">
             <div className="inner">
                 <h4 className="en sub-tit fade-in">Things I've Shipped</h4>
-                <Link to={Archive} className="en btn-view fade-in">view the archive</Link>
+                <Link to="/archive" className="en btn-view fade-in">view the archive</Link>
                 <ul className="list fade-in">
                     <AnimatePresence>
                         {displayedProjects.map((project, index) => (
