@@ -1,0 +1,26 @@
+[Unit]
+Description=Portfolio Telegram Bot
+Documentation=https://github.com/cjmin-n/PORTFOLIO_REACT
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+
+# ─── 경로/유저 (서버 상황에 맞게 조정) ─────────────────────────
+# 본인 Oracle VPS의 user(ubuntu/opc)와 clone 경로 확인 후 수정
+User=ubuntu
+WorkingDirectory=/home/ubuntu/PORTFOLIO_REACT/bot
+ExecStart=/home/ubuntu/PORTFOLIO_REACT/bot/venv/bin/python bot.py
+
+# ─── 자동 재시작 (다운 시 10초 후 재시작) ────────────────────────
+Restart=always
+RestartSec=10
+
+# ─── 로그 ───────────────────────────────────────────────────
+# journalctl -u portfolio-bot -f 로 보거나, 파일로 따로 저장하려면 아래 사용
+# StandardOutput=append:/home/ubuntu/PORTFOLIO_REACT/bot/bot.log
+# StandardError=append:/home/ubuntu/PORTFOLIO_REACT/bot/bot.log
+
+[Install]
+WantedBy=multi-user.target
